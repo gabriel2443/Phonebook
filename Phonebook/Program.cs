@@ -1,15 +1,5 @@
-﻿using Phonebook.Data;
-using Phonebook.Models;
+﻿using Phonebook;
 
-var context = new PhonebookContext();
+var menu = new UserInput();
 
-var contactDetail = new ContactDetails
-{
-    Name = "asd",
-    Email = "aiauaua",
-    Phone = "hauhau"
-};
-
-context.Add(contactDetail);
-
-context.SaveChanges();
+menu.Menu();

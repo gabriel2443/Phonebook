@@ -11,7 +11,7 @@ using Phonebook.Data;
 namespace Phonebook.Migrations
 {
     [DbContext(typeof(PhonebookContext))]
-    [Migration("20240530162106_InitialCreate")]
+    [Migration("20240531095146_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

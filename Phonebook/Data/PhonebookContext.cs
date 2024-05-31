@@ -9,6 +9,6 @@ public class PhonebookContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=(localdb)\PhonebookDb;Integrated Security=true");
+        optionsBuilder.UseSqlServer(@"Server=(LocalDB)\PhonebookDb;Initial Catalog=PhonebookDb;Integrated Security=true;TrustServerCertificate=True");
     }
 }
